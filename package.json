@@ -1,0 +1,25 @@
+{
+  "name": "dom-manip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "themes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaushik-Shetti-Kilowott/dom-manip.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaushik-Shetti-Kilowott/dom-manip/issues"
+  },
+  "homepage": "https://github.com/Kaushik-Shetti-Kilowott/dom-manip#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "devDependencies": {}
+}

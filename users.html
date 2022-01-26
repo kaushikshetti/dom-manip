@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link id="dark-theme-style" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="header">
+        <nav class="navbar navbar-expand navbar-transparent">
+            <div class="navbar-brand" href="#">Kilowott</div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-5 mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="links.html">Links</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="btn btn-outline-secondary mr-5" id="theme-toggler" 
+                onclick="toggleTheme()">Switch Theme</a>
+            <img alt="avatar" src="avatar64.png" class="avatar mr-2">
+            <span class="navbar-text">
+                <button class="btn btn-primary">Login</button>
+            </span>
+            
+        </nav>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidebar">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Myself</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="users.html">My Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="interests.html">My Interests</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+            <div class="col-md-9">
+                <div>
+                    <div class="content">
+                        <span> User Content</span>
+                        <ul id="users-list">
+
+                        </ul>
+                        <!-- <div class="pic d-flex justify-content-around">
+                            <div>
+                                <img src="Photo.jpg" class="float-left mr-9">
+                            </div>
+                            <div>
+                                <h3 class="text-danger">My Profile</h3>
+                                <p class="mt-5 " style=" color:green;">I’m currently working as a Trainee at Kilowott Agency Private Limited
+                                    games etc.</p>
+                            </div>    
+                        </div> -->
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-text">
+                <span>Copyright &copy; 2021</span>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="themes.js"></script>
+   <script src="users.js"></script>
+</body>
+
+</html>
